@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.nio.channels.Channel</OriginalElement>
+  <nodes>
+    <node x="376.6875" y="259.0">java.nio.channels.SocketChannel</node>
+    <node x="0.0" y="259.0">java.nio.channels.Pipe.SinkChannel</node>
+    <node x="263.9375" y="93.0">java.nio.channels.SelectableChannel</node>
+    <node x="173.6875" y="259.0">java.nio.channels.DatagramChannel</node>
+    <node x="227.9375" y="176.0">java.nio.channels.spi.AbstractSelectableChannel</node>
+    <node x="47.25" y="93.0">java.nio.channels.FileChannel</node>
+    <node x="561.6875" y="259.0">java.nio.channels.ServerSocketChannel</node>
+    <node x="226.75" y="0.0">java.nio.channels.Channel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.nio.channels.ServerSocketChannel" target="java.nio.channels.Channel">
+      <point x="54.75" y="-16.5" />
+      <point x="725.9375" y="53.0" />
+      <point x="328.5" y="53.0" />
+      <point x="46.25" y="16.5" />
+    </edge>
+    <edge source="java.nio.channels.FileChannel" target="java.nio.channels.Channel">
+      <point x="0.0" y="-16.5" />
+      <point x="120.75" y="63.0" />
+      <point x="254.5" y="63.0" />
+      <point x="-27.75" y="16.5" />
+    </edge>
+    <edge source="java.nio.channels.ServerSocketChannel" target="java.nio.channels.spi.AbstractSelectableChannel">
+      <point x="-54.75" y="-16.5" />
+      <point x="616.4375" y="229.0" />
+      <point x="466.8125" y="229.0" />
+      <point x="102.375" y="16.5" />
+    </edge>
+    <edge source="java.nio.channels.DatagramChannel" target="java.nio.channels.Channel">
+      <point x="-45.75" y="-16.5" />
+      <point x="219.4375" y="229.0" />
+      <point x="208.75" y="229.0" />
+      <point x="208.75" y="73.0" />
+      <point x="273.0" y="73.0" />
+      <point x="-9.25" y="16.5" />
+    </edge>
+    <edge source="java.nio.channels.Pipe.SinkChannel" target="java.nio.channels.Channel">
+      <point x="-36.75" y="-16.5" />
+      <point x="36.75" y="53.0" />
+      <point x="236.0" y="53.0" />
+      <point x="-46.25" y="16.5" />
+    </edge>
+    <edge source="java.nio.channels.DatagramChannel" target="java.nio.channels.spi.AbstractSelectableChannel">
+      <point x="45.75" y="-16.5" />
+      <point x="310.9375" y="239.0" />
+      <point x="330.3125" y="239.0" />
+      <point x="-34.125" y="16.5" />
+    </edge>
+    <edge source="java.nio.channels.spi.AbstractSelectableChannel" target="java.nio.channels.SelectableChannel">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="java.nio.channels.Pipe.SinkChannel" target="java.nio.channels.spi.AbstractSelectableChannel">
+      <point x="36.75" y="-16.5" />
+      <point x="110.25" y="239.0" />
+      <point x="262.0625" y="239.0" />
+      <point x="-102.375" y="16.5" />
+    </edge>
+    <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.Channel">
+      <point x="41.25" y="-16.5" />
+      <point x="500.4375" y="239.0" />
+      <point x="515.625" y="239.0" />
+      <point x="515.625" y="63.0" />
+      <point x="310.0" y="63.0" />
+      <point x="27.75" y="16.5" />
+    </edge>
+    <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.spi.AbstractSelectableChannel">
+      <point x="-41.25" y="-16.5" />
+      <point x="417.9375" y="239.0" />
+      <point x="398.5625" y="239.0" />
+      <point x="34.125" y="16.5" />
+    </edge>
+    <edge source="java.nio.channels.SelectableChannel" target="java.nio.channels.Channel">
+      <point x="0.0" y="-16.5" />
+      <point x="364.4375" y="73.0" />
+      <point x="291.5" y="73.0" />
+      <point x="9.25" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="349.0" y="141.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
