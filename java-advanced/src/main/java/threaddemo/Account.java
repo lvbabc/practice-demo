@@ -14,6 +14,11 @@ public class Account {
         synchronized (this) {
             // 锁定转入账户
             synchronized (target) {
+                try {
+                    wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 if (this.balance > amt) {
                     this.balance -= amt;
                     target.balance += amt;
